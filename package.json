@@ -1,0 +1,19 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "3d Weather app using spline ",
+  "main": "index.js",
+  "scripts": {
+    "test": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THEBLUEFLASH18/Weather_App.git"
+  },
+  "author": "Marcos Galdamez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/THEBLUEFLASH18/Weather_App/issues"
+  },
+  "homepage": "https://github.com/THEBLUEFLASH18/Weather_App#readme"
+}
