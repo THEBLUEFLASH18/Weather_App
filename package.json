@@ -4,7 +4,7 @@
   "description": "3d Weather app using spline ",
   "main": "index.js",
   "scripts": {
-    "test": "build"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/THEBLUEFLASH18/Weather_App/issues"
   },
-  "homepage": "https://github.com/THEBLUEFLASH18/Weather_App#readme"
+  "homepage": "https://github.com/THEBLUEFLASH18/Weather_App#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
