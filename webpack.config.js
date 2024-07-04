@@ -26,11 +26,24 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    alias: {
+      'three': path.resolve(__dirname, 'node_modules/three'),
+    },
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html', // Use your source index.html file as template
       filename: 'index.html', // Output index.html in the dist folder
+      inject: 'body', // Ensure scripts are injected at the end of the body
     }),
   ],
-  mode: 'development', // change to 'production' for production build
+  mode: 'development',
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    compress: true,
+    port: 9000,
+  },
 };
