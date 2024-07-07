@@ -11,11 +11,11 @@ body {
 
 .card {
     width: 90%;
-    height: 500px;
+    height: 600px;
     max-width: 470px;
     background: linear-gradient(135deg, #07392b, #434058);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -57,7 +57,21 @@ body {
 }
 
 .weather {
-    height: 300px;
+    height: 290px;
+}
+
+.Weather-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    margin: auto 5px;
 }
 
 .canvas {
